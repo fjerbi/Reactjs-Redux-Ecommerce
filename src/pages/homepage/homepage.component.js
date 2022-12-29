@@ -1,7 +1,7 @@
 import React from "react";
 import Directory from "../../components/directory/directory.component";
 import "./homepage.styles.scss";
-function Homepage() {
+function Homepage({history}) {
   return (
     <div className="homepage">
       <Directory />
